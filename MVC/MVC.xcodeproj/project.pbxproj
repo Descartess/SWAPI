@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1313F41921524A4500804438 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313F41821524A4500804438 /* Categories.swift */; };
+		1313F41B21524B2E00804438 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313F41A21524B2E00804438 /* Planets.swift */; };
+		1313F41D21524C3A00804438 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313F41C21524C3A00804438 /* People.swift */; };
+		1313F41F21524C6300804438 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313F41E21524C6300804438 /* Species.swift */; };
+		1313F42121524D3600804438 /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313F42021524D3600804438 /* Starships.swift */; };
+		1313F42321524DD800804438 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313F42221524DD800804438 /* Vehicles.swift */; };
+		1313F42521524EC200804438 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313F42421524EC200804438 /* Films.swift */; };
+		1382AA852142B36B0055A0F6 /* SWAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382AA842142B36B0055A0F6 /* SWAPIService.swift */; };
 		13D0C60D2141557F0018199D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0C60C2141557F0018199D /* AppDelegate.swift */; };
 		13D0C60F2141557F0018199D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0C60E2141557F0018199D /* ViewController.swift */; };
 		13D0C6122141557F0018199D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D0C6102141557F0018199D /* Main.storyboard */; };
 		13D0C614214155800018199D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D0C613214155800018199D /* Assets.xcassets */; };
 		13D0C617214155800018199D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D0C615214155800018199D /* LaunchScreen.storyboard */; };
 		13D0C622214155810018199D /* MVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0C621214155810018199D /* MVCUITests.swift */; };
+		13D53687214168B600A39DEA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D53686214168B600A39DEA /* DashboardViewController.swift */; };
+		13D5368A21416A5700A39DEA /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5368821416A5700A39DEA /* DashboardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1313F41821524A4500804438 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		1313F41A21524B2E00804438 /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		1313F41C21524C3A00804438 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		1313F41E21524C6300804438 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		1313F42021524D3600804438 /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
+		1313F42221524DD800804438 /* Vehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
+		1313F42421524EC200804438 /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		1382AA842142B36B0055A0F6 /* SWAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPIService.swift; sourceTree = "<group>"; };
 		13D0C6092141557F0018199D /* MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D0C60C2141557F0018199D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13D0C60E2141557F0018199D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +54,8 @@
 		13D0C61D214155810018199D /* MVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D0C621214155810018199D /* MVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCUITests.swift; sourceTree = "<group>"; };
 		13D0C623214155810018199D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D53686214168B600A39DEA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		13D5368821416A5700A39DEA /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1313F4172152362300804438 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		13478AF6214FE1C300199815 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1313F41821524A4500804438 /* Categories.swift */,
+				1313F41A21524B2E00804438 /* Planets.swift */,
+				1313F41C21524C3A00804438 /* People.swift */,
+				1313F41E21524C6300804438 /* Species.swift */,
+				1313F42021524D3600804438 /* Starships.swift */,
+				1313F42221524DD800804438 /* Vehicles.swift */,
+				1313F42421524EC200804438 /* Films.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		13D0C6002141557F0018199D = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +118,10 @@
 		13D0C60B2141557F0018199D /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				1313F4172152362300804438 /* Constants */,
+				13478AF6214FE1C300199815 /* Models */,
+				13D536852141679100A39DEA /* Networking */,
+				13D536842141677E00A39DEA /* Dashboard */,
 				13D0C60C2141557F0018199D /* AppDelegate.swift */,
 				13D0C60E2141557F0018199D /* ViewController.swift */,
 				13D0C6102141557F0018199D /* Main.storyboard */,
@@ -94,6 +139,23 @@
 				13D0C623214155810018199D /* Info.plist */,
 			);
 			path = MVCUITests;
+			sourceTree = "<group>";
+		};
+		13D536842141677E00A39DEA /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				13D53686214168B600A39DEA /* DashboardViewController.swift */,
+				13D5368821416A5700A39DEA /* DashboardCollectionViewCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		13D536852141679100A39DEA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1382AA842142B36B0055A0F6 /* SWAPIService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +260,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D0C60F2141557F0018199D /* ViewController.swift in Sources */,
+				1313F42521524EC200804438 /* Films.swift in Sources */,
+				1313F41B21524B2E00804438 /* Planets.swift in Sources */,
+				13D5368A21416A5700A39DEA /* DashboardCollectionViewCell.swift in Sources */,
+				13D53687214168B600A39DEA /* DashboardViewController.swift in Sources */,
+				1313F41D21524C3A00804438 /* People.swift in Sources */,
 				13D0C60D2141557F0018199D /* AppDelegate.swift in Sources */,
+				1382AA852142B36B0055A0F6 /* SWAPIService.swift in Sources */,
+				1313F42121524D3600804438 /* Starships.swift in Sources */,
+				1313F41F21524C6300804438 /* Species.swift in Sources */,
+				1313F42321524DD800804438 /* Vehicles.swift in Sources */,
+				1313F41921524A4500804438 /* Categories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
