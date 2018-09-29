@@ -8,6 +8,15 @@
 
 import Foundation
 
+
+struct Vehicles: Codable {
+    var count: Int
+    var next: URL?
+    var previous: URL?
+    var results: [Vehicle]
+}
+
+
 struct Vehicle: Codable {
     var name: String
     var model: String

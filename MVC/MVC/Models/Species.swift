@@ -8,6 +8,13 @@
 
 import Foundation
 
+struct Species: Codable {
+    var count: Int
+    var next: URL?
+    var previous: URL?
+    var results: [Specie]
+}
+
 struct Specie: Codable {
     var name: String
     var classification: String

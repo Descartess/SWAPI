@@ -70,6 +70,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicatior" destination="z4m-Vi-jSD" id="oBB-99-Bc5"/>
                         <outlet property="collectionView" destination="YA9-ML-OAt" id="AhD-rx-yqA"/>
                     </connections>
                 </viewController>

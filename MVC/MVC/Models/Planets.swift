@@ -8,6 +8,15 @@
 
 import Foundation
 
+
+struct Planets: Codable {
+    var count: Int
+    var next: URL?
+    var previous: URL?
+    var results: [Planet]
+}
+
+
 struct Planet: Codable {
     var name: String
     var diameter: String

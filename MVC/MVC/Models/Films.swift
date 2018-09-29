@@ -8,6 +8,13 @@
 
 import Foundation
 
+struct Films: Codable {
+    var count: Int
+    var next: URL?
+    var previous: URL?
+    var results: [Film]
+}
+
 struct Film: Codable {
     var title: String
     var episode_id: Int

@@ -23,6 +23,7 @@
 		13D0C622214155810018199D /* MVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0C621214155810018199D /* MVCUITests.swift */; };
 		13D53687214168B600A39DEA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D53686214168B600A39DEA /* DashboardViewController.swift */; };
 		13D5368A21416A5700A39DEA /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5368821416A5700A39DEA /* DashboardCollectionViewCell.swift */; };
+		13E6C2CB21600ABD00D61D2E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E6C2CA21600ABD00D61D2E /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		13D0C623214155810018199D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13D53686214168B600A39DEA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		13D5368821416A5700A39DEA /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		13E6C2CA21600ABD00D61D2E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				1382AA842142B36B0055A0F6 /* SWAPIService.swift */,
+				13E6C2CA21600ABD00D61D2E /* Result.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D0C60F2141557F0018199D /* ViewController.swift in Sources */,
+				13E6C2CB21600ABD00D61D2E /* Result.swift in Sources */,
 				1313F42521524EC200804438 /* Films.swift in Sources */,
 				1313F41B21524B2E00804438 /* Planets.swift in Sources */,
 				13D5368A21416A5700A39DEA /* DashboardCollectionViewCell.swift in Sources */,

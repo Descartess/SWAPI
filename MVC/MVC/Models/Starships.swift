@@ -8,6 +8,13 @@
 
 import Foundation
 
+struct Starships: Codable {
+    var count: Int
+    var next: URL?
+    var previous: URL?
+    var results: [Starship]
+}
+
 struct Starship: Codable {
     var name: String
     var model: String
